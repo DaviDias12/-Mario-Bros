@@ -1,7 +1,7 @@
 const mario = document.querySelector('.mario');
 
 
-const jump = (jump) => {
+const jump = () => {
     mario.classList.add('jump');
 
     setTimeout(() => {
@@ -9,5 +9,4 @@ const jump = (jump) => {
     }, 500); 
 }
 
-document.addEventListener('keydown ',jump);
-
+document.addEventListener('keydown',jump);
