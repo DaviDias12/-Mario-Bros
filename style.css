@@ -72,3 +72,15 @@
     }
     
  }
+ p {
+    font-family:'Roboto Mono', monospace;
+    padding: 50px;
+    text-align: center;
+    color: black;
+}
+.score {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    font-size: x-large;
+  }
